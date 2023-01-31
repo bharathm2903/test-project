@@ -28,6 +28,6 @@ services:
       - key: ADMIN_PASSWORD
         value: 'spree123'
   - type: redis
-    plan: individual
+    plan: enterprise
     name: spree_redis
     ipAllowList: [] 
