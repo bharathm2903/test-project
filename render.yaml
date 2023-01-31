@@ -4,6 +4,7 @@ databases:
   - name: spree
     databaseName: spree
     user: spree
+    plan: free
 
 services:
   - type: web
@@ -28,6 +29,6 @@ services:
       - key: ADMIN_PASSWORD
         value: 'spree123'
   - type: redis
-    plan: enterprise
+    plan: free
     name: spree_redis
     ipAllowList: [] 
