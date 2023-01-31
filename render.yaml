@@ -21,4 +21,4 @@ services:
   #   name: rails
     # ipAllowList: []
     plan: free
-    # maxmemoryPolicy: noeviction
+    maxmemoryPolicy: noeviction
